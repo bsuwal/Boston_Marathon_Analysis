@@ -1,7 +1,3 @@
-""" Comments to self:
-        The 2015 file is not working correctly
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -24,7 +20,7 @@ def main():
     # plot line plots
     start = pd.Timestamp('1900-01-01 02:00:00')
     end = pd.Timestamp('1900-01-01 06:00:00')
-    interval = 5
+    interval = 5 # minutes
     plot_lineplots(df, start, end, interval)
     
 
